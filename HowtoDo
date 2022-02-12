@@ -1,6 +1,7 @@
 We have to create appspec.ymml file in root folder for aws code build
 and will have to create two IAM roles one for EC2 - Create role and select EC2 and and attach permission policy EC2roleforcodedeploy and create role
-then create another role for the codedeploy and and select role COdeDeploy \
+then create another role for the codedeploy and and select role COdeDeploy 
+Attach codedeploy role to ec2 instance
 Now install codedeploy agent on server 
 Now got to codedeploy service  create application, name it and select EC2 instance then create deployment grp and select service role 
 Now select  Amazon EC2 instances and select name of instance For load balancer section we gonna disable it as we just have one instance 
